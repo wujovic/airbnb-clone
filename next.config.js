@@ -4,7 +4,8 @@ const nextConfig = {
   images: {
     domains: [
       'spng.pngfind.com', 
-      'upload.wikimedia.org'
+      'upload.wikimedia.org',
+      'media.worldnomads.com'
     ]
   }
 }
