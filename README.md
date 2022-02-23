@@ -5,7 +5,7 @@ Creating a Airbnb website clone with Next.js, Tailwind CSS...
 - [x] Header
 - [x] Banner
 - [ ] Main Section
-  - [ ] Explore Nearby - small cards
+  - [x] Explore Nearby - small cards
   - [ ] Live Anywhere - medium cards
   - [ ] Large Card
 
