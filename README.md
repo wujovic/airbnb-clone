@@ -8,6 +8,6 @@ Creating a Airbnb website clone with Next.js, Tailwind CSS, Date-picker(react-da
   - [x] Explore Nearby - small cards
   - [x] Live Anywhere - medium cards
   - [x] Large Card
-- [ ] Search
+- [x] Search
 - [x] Calendar
 
