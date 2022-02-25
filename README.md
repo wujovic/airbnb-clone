@@ -1,5 +1,5 @@
 # Airbnb clone
-Creating a Airbnb website clone with Next.js, Tailwind CSS, Date-picker(react-date-range)...
+Creating a Airbnb website clone with Next.js, Tailwind CSS, Mapbox...
 
 ## Plan:
 - [x] Header
@@ -11,4 +11,5 @@ Creating a Airbnb website clone with Next.js, Tailwind CSS, Date-picker(react-da
 - [x] Search
 - [x] Calendar
 - [x] Loading animation
+- [ ] Adding Map
 
