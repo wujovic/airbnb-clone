@@ -77,7 +77,7 @@ function Header(props: any) {
       {/* right */}
       <div className="flex items-center space-x-4 justify-end text-gray-500">
         <p className="hidden md:inline cursor-pointer">Become a host</p>
-        <GlobeAltIcon className="h-6 cursor-pointer" />
+        <GlobeAltIcon className="hidden sm:inline-flex sm:h-6 sm:cursor-pointer" />
         <div className="flex items-center space-x-2 border-2 p-2 rounded-full">
           <MenuIcon className="h-6 cursor-pointer" />
           <UserCircleIcon className="h-6 cursor-pointer" />
@@ -85,7 +85,7 @@ function Header(props: any) {
       </div>
       {/* if it's true then render */}
       {searchInput && (
-        <div className="flex flex-col col-span-3 mx-auto mt-3">
+        <div className="flex flex-col col-span-3 mx-4 sm:mx-auto mt-3">
           <DateRangePicker
             ranges={[selectionRange]}
             minDate={new Date()}
