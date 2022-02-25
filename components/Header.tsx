@@ -85,13 +85,23 @@ function Header(props: any) {
       </div>
       {/* if it's true then render */}
       {searchInput && (
-        <div className="flex flex-col col-span-3 mx-2 sm:mx-auto mt-3">
-          <DateRangePicker
-            ranges={[selectionRange]}
-            minDate={new Date()}
-            rangeColors={["#FD5B61"]}
-            onChange={handleSelect}
-          />
+        <div className="flex flex-col col-span-3 mx-auto mt-3">
+          <div className="hidden sm:inline-flex">
+            <DateRangePicker
+              ranges={[selectionRange]}
+              minDate={new Date()}
+              rangeColors={["#FD5B61"]}
+              onChange={handleSelect}
+            />
+          </div>
+          <div className="sm:hidden">
+            <DateRange
+              ranges={[selectionRange]}
+              minDate={new Date()}
+              rangeColors={["#FD5B61"]}
+              onChange={handleSelect}
+            />
+          </div>
           <div className="flex items-center border-b mt-4 mb-4">
             <h2 className="text-2xl flex-grow font-semibold">
               Number of Guests
