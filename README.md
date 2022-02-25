@@ -12,4 +12,5 @@ Creating a Airbnb website clone with Next.js, Tailwind CSS, Mapbox...
 - [x] Calendar
 - [x] Loading animation
 - [ ] Adding Map
+- [ ] Find an actual API
 
