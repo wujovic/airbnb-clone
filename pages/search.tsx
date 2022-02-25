@@ -11,15 +11,20 @@ function Search(props: any) {
 
   const { location, startDate, endDate, numberOfGuests } = router.query;
   //@ts-ignore
-  const formattedStartDate = format(new Date(startDate), "dd MMMM YYY");
+  const formattedStartDate = format(new Date(startDate), "dd MMM");
   //@ts-ignore
-  const formattedEndDate = format(new Date(endDate), "dd MMMM YYY");
+  const formattedEndDate = format(new Date(endDate), "dd MMM");
 
   return (
     <div>
-      <Header
-        placeholder={`${location} | ${formattedStartDate} - ${formattedEndDate} | guests: ${numberOfGuests}`}
-      />
+      <div className="md:hidden">
+        <Header />
+      </div>
+      <div className="hidden md:grid">
+        <Header
+          placeholder={`${location} | ${formattedStartDate} - ${formattedEndDate} | guests: ${numberOfGuests}`}
+        />
+      </div>
       <main className="flex">
         <section className="flex-grow pt-14 px-6">
           <p className="text-xs">
